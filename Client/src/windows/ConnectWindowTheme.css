@@ -1,0 +1,107 @@
+.tr-background {
+    -fx-background-color: transparent;
+}
+
+.button {
+    -fx-background-radius: 8px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-border-width: 0.8px;
+    -fx-border-color: gray;
+    -fx-border-radius: 8px;
+    -fx-font-family: "Segoe UI";
+}
+
+.button:hover {
+    -fx-background-color: gray;
+}
+
+.button:focused {
+    -fx-background-color: gray;
+}
+
+.header-button {
+    -fx-background-radius: 6px;
+    -fx-background-color: #3cd2fd;
+    -fx-border-color: transparent;
+}
+
+.header-button.close:hover {
+    -fx-background-color: #dd6660;
+}
+
+.header-button.close:focused{
+    -fx-background-color: #dd6660;
+}
+
+.header-button.max:hover {
+    -fx-background-color: #85c343;
+}
+
+.header-button.min:hover {
+    -fx-background-color: #f5b74f;
+}
+
+.header-button.min:focused {
+    -fx-background-color: #f5b74f;
+}
+
+.list-view{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: gray 25%;
+}
+
+.list-cell:selected {
+    -fx-background-color: white 90%;
+    -fx-text-fill: black;
+}
+
+.list-view .scroll-bar:horizontal ,
+.list-view  .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.list-view .increment-button ,.list-view .decrement-button {
+    -fx-background-color:transparent;
+}
+
+.list-view .scroll-bar:horizontal .thumb,
+.list-view .scroll-bar:vertical .thumb {
+    -fx-background-color:derive(white,50%);
+
+}
+
+.list-view .scroll-bar:horizontal:hover .track ,
+.list-view .scroll-bar:horizontal:pressed .track ,
+.list-view .scroll-bar:vertical:hover .track,
+.list-view .scroll-bar:vertical:pressed .track{
+    -fx-opacity: 0.2;
+}
+
+.list-view .scroll-bar .thumb:hover,
+.list-view .scroll-bar .thumb:pressed{
+    -fx-background-color: derive(white,50%);
+}
+
+.text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent white transparent;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: gray;
+    -fx-font-family: "Segoe UI";
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI";
+}
+

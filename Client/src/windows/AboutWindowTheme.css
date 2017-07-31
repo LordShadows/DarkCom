@@ -1,0 +1,85 @@
+.tr-background {
+    -fx-background-color: transparent;
+}
+
+.button {
+    -fx-background-radius: 8px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-border-width: 0.8px;
+    -fx-border-color: gray;
+    -fx-border-radius: 8px;
+}
+
+.button:hover {
+    -fx-background-color: gray;
+}
+
+.header-button {
+    -fx-background-radius: 6px;
+    -fx-background-color: #3cd2fd;
+    -fx-border-color: transparent;
+}
+
+.header-button.close:hover {
+    -fx-background-color: #dd6660;
+}
+
+.header-button.max:hover {
+    -fx-background-color: #85c343;
+}
+
+.header-button.min:hover {
+    -fx-background-color: #f5b74f;
+}
+
+.header-button.close:focused{
+    -fx-background-color: #dd6660;
+}
+
+.header-button.max:focused {
+    -fx-background-color: #85c343;
+}
+
+.header-button.min:focused {
+    -fx-background-color: #f5b74f;
+}
+
+.text-area{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-color: rgba(255, 255, 255, 0.7);
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.text-area .content {
+    -fx-background-color: transparent;
+}
+.text-area .scroll-bar:horizontal ,
+.text-area  .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.text-area .increment-button ,.text-area .decrement-button {
+    -fx-background-color:transparent;
+}
+
+.text-area .scroll-bar:horizontal .thumb,
+.text-area .scroll-bar:vertical .thumb {
+    -fx-background-color:derive(white,50%);
+    -fx-opacity: 0.2;
+}
+
+.text-area .scroll-bar:horizontal:hover .track ,
+.text-area .scroll-bar:horizontal:pressed .track ,
+.text-area .scroll-bar:vertical:hover .track,
+.text-area-view .scroll-bar:vertical:pressed .track{
+    -fx-opacity: 0.2;
+}
+
+.text-area .scroll-bar .thumb:hover,
+.text-area .scroll-bar .thumb:pressed{
+    -fx-background-color: derive(white,50%);
+    -fx-opacity: 0.3;
+}

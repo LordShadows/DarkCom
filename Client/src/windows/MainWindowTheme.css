@@ -1,0 +1,194 @@
+.tr-background {
+    -fx-background-color: transparent;
+    -fx-border-style: none;
+}
+
+.gray-background {
+    -fx-background-color: #030303;
+}
+
+.center {
+    -fx-text-alignment: center;
+}
+
+.black-background {
+    -fx-background-color: black;
+}
+
+.button-standart {
+    -fx-background-radius: 8px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-border-width: 0.8px;
+    -fx-border-color: gray;
+    -fx-border-radius: 8px;
+    -fx-font-family: "Segoe UI";
+}
+
+.button-standart:hover {
+    -fx-background-color: gray;
+}
+
+.buttontr {
+    -fx-background-radius: 8px;
+    -fx-text-fill: white;
+    -fx-border-width: 0.8px;
+    -fx-border-radius: 8px;
+    -fx-background-color: black;
+    -fx-border-color: black;
+}
+
+.cancel-button{
+    -fx-background-color: transparent;
+    -fx-background-image: url("../img/cancel.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 15px 30px;
+    -fx-background-position: top center;
+}
+.cancel-button:hover{
+    -fx-background-position: bottom center;
+}
+
+.buttontr:hover {
+    -fx-background-color: black;
+    -fx-border-color: black;
+}
+
+.header-button {
+    -fx-background-radius: 6px;
+    -fx-background-color: #3cd2fd;
+    -fx-border-color: transparent;
+}
+
+.header-button.close:hover {
+    -fx-background-color: #dd6660;
+}
+
+.header-button.max:hover {
+    -fx-background-color: #85c343;
+}
+
+.header-button.min:hover {
+    -fx-background-color: #f5b74f;
+}
+
+.header-button.close:focused{
+    -fx-background-color: #dd6660;
+}
+
+.header-button.max:focused {
+    -fx-background-color: #85c343;
+}
+
+.header-button.min:focused {
+    -fx-background-color: #f5b74f;
+}
+
+.list-view{
+    -fx-background-color: transparent;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+}
+
+#contacts .list-cell:filled:hover {
+    -fx-background-color: #808080cd;
+}
+
+#contacts .list-cell:selected {
+    -fx-background-color: #8080803f;
+}
+
+.scroll-bar:horizontal ,
+.scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.increment-button ,.decrement-button {
+    -fx-background-color:transparent;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color:derive(white,50%);
+    -fx-opacity: 0.2;
+}
+.scroll-bar .thumb:hover,
+.scroll-bar .thumb:pressed{
+    -fx-background-color: derive(white,50%);
+    -fx-opacity: 0.3;
+}
+
+.text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent white transparent;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: gray;
+    -fx-font-family: "Segoe UI";
+}
+
+.text-field.search {
+    -fx-background-image: url("../img/Search.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 15px 15px;
+    -fx-background-position: right center;
+}
+
+.label-theme {
+    -fx-text-fill: #f9f9f9;
+    -fx-font-family: "Segoe UI";
+}
+
+.text-area .content{
+    -fx-text-fill: white;
+    -fx-background-color: #171717;
+}
+
+.label-darktheme {
+    -fx-text-fill: black;
+    -fx-font-family: "Segoe UI";
+}
+
+
+.text-area{
+    -fx-border-color: lightgray;
+    -fx-border-width: 1px;
+    -fx-border-radius: 6px;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.refresh-button{
+    -fx-background-image: url("../img/contact-refresh.png");
+    -fx-background-size: 20px 20px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-style: none;
+}
+
+.refresh-button:hover{
+    -fx-effect: dropshadow(gaussian, #3cd2fd, 5, 0.3, 0, 0);
+}
+
+.refresh-button:pressed {
+    -fx-effect: dropshadow(gaussian, #3cd2fd, 8, 0.3, 0, 0);
+}
+
+.add-button{
+    -fx-background-image: url("../img/contact-add.png");
+    -fx-background-size: 20px 20px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-style: none;
+}
+
+.add-button:hover{
+    -fx-effect: dropshadow(gaussian, #3cd2fd, 5, 0.3, 0, 0);
+}
+
+.add-button:pressed {
+    -fx-effect: dropshadow(gaussian, #3cd2fd, 7, 0.3, 0, 0);
+}

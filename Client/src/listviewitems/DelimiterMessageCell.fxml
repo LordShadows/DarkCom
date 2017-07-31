@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="mainpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="48.0" prefWidth="620.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="text" layoutX="262.0" layoutY="18.0" prefHeight="15.0" prefWidth="151.0" text="Еще не прочитанные" textAlignment="CENTER" textFill="#fffffff3" wrapText="true" AnchorPane.topAnchor="18.0">
+         <font>
+            <Font name="Segoe UI Italic" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="1.0" layoutX="72.0" layoutY="25.0" stroke="#ffffff7f" strokeType="INSIDE" width="170.0" AnchorPane.leftAnchor="72.0" AnchorPane.topAnchor="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="1.0" layoutX="432.0" layoutY="25.0" stroke="#ffffff80" strokeType="INSIDE" width="170.0" AnchorPane.rightAnchor="18.0" AnchorPane.topAnchor="25.0" />
+   </children>
+</AnchorPane>
